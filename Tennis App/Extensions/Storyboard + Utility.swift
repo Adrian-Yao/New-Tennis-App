@@ -18,6 +18,7 @@ extension UIStoryboard {
         }
     }
     
+    
     convenience init(type: MGType, bundle: Bundle? = nil) {
         self.init(name: type.filename, bundle: bundle)
     }
