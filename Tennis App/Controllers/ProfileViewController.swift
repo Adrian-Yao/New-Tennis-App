@@ -187,15 +187,8 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         }
         return
         
-        print("Profile ICE CREAM")
     }
     
-    
-    @IBAction func genderSegmentedControlTapped(_ sender: Any) {
-        
-        
-        print("SEGMENT CONTROL ICE CREAM")
-    }
     
 
     @IBAction func countryTextFieldTapped(_ sender: Any) {
@@ -278,8 +271,6 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         
         
         
-        
-        print("MATCH BUTTON ICE CREAM")
         
     }
     

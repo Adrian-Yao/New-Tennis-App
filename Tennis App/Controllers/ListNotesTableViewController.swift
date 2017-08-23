@@ -15,12 +15,19 @@ class ListNotesTableViewController: UIViewController, UITableViewDataSource, UIT
     
     var users = [User]() {
         didSet {
+            
+            users.sort { (one, two) -> Bool in
+                return (Double(one.level!)!) >= (Double(two.level!)!)
+            }
             tableView.reloadData()
         
         }
     }
     
+    
     override func viewDidLoad() {
+        
+        
         
         super.viewDidLoad()
         UserService.timeline{ (users) in

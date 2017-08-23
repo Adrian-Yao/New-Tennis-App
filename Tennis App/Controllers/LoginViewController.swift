@@ -37,7 +37,6 @@ class LoginViewController: UIViewController {
         present(authViewController, animated: true)
         
         
-        print("CHOCOLATE MAMA")
     }
 }
 
@@ -57,7 +56,6 @@ extension LoginViewController: FUIAuthDelegate {
                 self.performSegue(withIdentifier: Constants.Segue.toCreateProfile, sender: self)
             }
         }
-        print("VANILA MAMA")
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
