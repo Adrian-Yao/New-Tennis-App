@@ -9,8 +9,8 @@
 import UIKit
 import FirebaseAuth
 import FirebaseDatabase
+import GooglePlaces
 
-import SearchTextField
 class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate, UITextViewDelegate {
     
     var age: String?
@@ -155,9 +155,6 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     
     
-    
-    //End of Autocomplete
-    
     //ACTION
     
     @IBAction func profileLink(_ sender: Any) {
@@ -203,6 +200,18 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         print("SEGMENT CONTROL ICE CREAM")
     }
     
+
+    @IBAction func countryTextFieldTapped(_ sender: Any) {
+        
+        let autocompleteController = GMSAutocompleteViewController()
+        autocompleteController.delegate = self
+        
+        let filter = GMSAutocompleteFilter()
+        filter.type = .region
+        autocompleteController.autocompleteFilter = filter
+        
+        present(autocompleteController, animated: true, completion: nil)
+    }
     
     @IBAction func matchButtonTapped(_ sender: Any) {
         
@@ -294,4 +303,33 @@ extension UIViewController {
     func dismissKeyboard() {
         view.endEditing(true)
     }
+}
+
+extension ProfileViewController: GMSAutocompleteViewControllerDelegate {
+    
+    // Handle the user's selection.
+    func viewController(_ viewController: GMSAutocompleteViewController, didAutocompleteWith place: GMSPlace) {
+        self.countryTextField.text = place.formattedAddress
+        dismiss(animated: true, completion: nil)
+    }
+    
+    func viewController(_ viewController: GMSAutocompleteViewController, didFailAutocompleteWithError error: Error) {
+        // TODO: handle the error.
+        print("Error: ", error.localizedDescription)
+    }
+    
+    // User canceled the operation.
+    func wasCancelled(_ viewController: GMSAutocompleteViewController) {
+        dismiss(animated: true, completion: nil)
+    }
+    
+    // Turn the network activity indicator on and off again.
+    func didRequestAutocompletePredictions(_ viewController: GMSAutocompleteViewController) {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = true
+    }
+    
+    func didUpdateAutocompletePredictions(_ viewController: GMSAutocompleteViewController) {
+        UIApplication.shared.isNetworkActivityIndicatorVisible = false
+    }
+    
 }

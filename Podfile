@@ -12,7 +12,7 @@ target 'Tennis App' do
   pod 'FirebaseUI/Auth'
   pod 'Firebase/Database'
   pod 'Firebase/Storage'
-  pod ‘SearchTextField’
+  pod 'GooglePlaces'
 
 
 end

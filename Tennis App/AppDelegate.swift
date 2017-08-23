@@ -8,6 +8,7 @@
 
 import UIKit
 import Firebase
+import GooglePlaces
 
 
 @UIApplicationMain
@@ -20,7 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         FirebaseApp.configure()
         
         configureInitialRootViewController(for: window)
-        
+        GMSPlacesClient.provideAPIKey("AIzaSyBaZfqexXR-xXbgBNEDOCRAPdvXx0SxyeY")
         return true
     }
 

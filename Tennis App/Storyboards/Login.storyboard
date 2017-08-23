@@ -260,6 +260,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="countryTextFieldTapped:" destination="mBi-H3-oD4" eventType="touchDown" id="3SP-Zv-xFG"/>
+                                                </connections>
                                             </textField>
                                         </subviews>
                                         <constraints>
@@ -427,7 +430,7 @@
                     <connections>
                         <outlet property="agePicker" destination="6YB-Pm-Ngf" id="kWZ-3W-2G9"/>
                         <outlet property="cityTextField" destination="DGu-Qo-qw6" id="vWx-PG-M2C"/>
-                        <outlet property="countryTextField" destination="47w-PD-9is" id="w3s-un-KNk"/>
+                        <outlet property="countryTextField" destination="47w-PD-9is" id="r3e-tv-Byf"/>
                         <outlet property="genderSegmentControl" destination="0NY-Q0-62b" id="qa0-g3-8Je"/>
                         <outlet property="infoTextView" destination="T2k-lI-0nD" id="XmG-cJ-MTa"/>
                         <outlet property="levelPicker" destination="1b4-2w-7cs" id="pZB-QW-Vrp"/>
