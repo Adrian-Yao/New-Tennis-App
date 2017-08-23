@@ -17,7 +17,6 @@ class DisplayInfoTableViewController: UIViewController {
     @IBOutlet weak var displayGender: UILabel!
     @IBOutlet weak var displayInfo: UILabel!
     @IBOutlet weak var displayLevel: UILabel!
-    @IBOutlet weak var displayCity: UILabel!
     @IBOutlet weak var displayCountry: UILabel!
     @IBOutlet weak var displayPhoneNumber: UILabel!
 
@@ -62,7 +61,6 @@ class DisplayInfoTableViewController: UIViewController {
             displayGender.text = user.gender
             displayInfo.text = user.info
             displayLevel.text = user.level
-            displayCity.text = user.city
             displayCountry.text = user.country
             displayPhoneNumber.text = user.phoneNumber
         } else {
@@ -72,7 +70,6 @@ class DisplayInfoTableViewController: UIViewController {
             displayGender.text = ""
             displayInfo.text = ""
             displayLevel.text = ""
-            displayCity.text = ""
             displayCountry.text = ""
             displayPhoneNumber.text = ""
         }

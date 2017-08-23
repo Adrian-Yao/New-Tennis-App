@@ -20,7 +20,6 @@ struct Constants {
         static let gender = "gender"
         static let level = "level"
         static let country = "country"
-        static let city = "city"
         static let phoneNumber = "phoneNumber"
         static let info = "info"
     }

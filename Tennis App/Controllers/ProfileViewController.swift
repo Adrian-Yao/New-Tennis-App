@@ -17,7 +17,6 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     var gender: String?
     var level: String?
     var country: String?
-    var city: String?
     var phoneNumber: String?
     var info: String?
     var value: String?
@@ -82,7 +81,6 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
             else { genderSegmentControl.selectedSegmentIndex = 1 }
             levelPicker.selectRow(Int((2.0 * Double((user.level!))!) - 2.0), inComponent: 0, animated: false)
             countryTextField.text = user.country
-            cityTextField.text = user.city
             phoneNumberTextField.text = user.phoneNumber
             infoTextView.text = user.info
             
@@ -146,7 +144,6 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     @IBOutlet weak var genderSegmentControl: UISegmentedControl!
     @IBOutlet weak var levelPicker: UIPickerView!
     @IBOutlet weak var countryTextField: UITextField!
-    @IBOutlet weak var cityTextField: UITextField!
     @IBOutlet weak var phoneNumberTextField: UITextField!
     @IBOutlet weak var infoTextView: UITextView!
     @IBOutlet weak var matchButton: UIButton!
@@ -213,18 +210,6 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         present(autocompleteController, animated: true, completion: nil)
     }
     
-    @IBAction func cityTextFieldTapped(_ sender: Any) {
-        
-        let autocompleteController = GMSAutocompleteViewController()
-        autocompleteController.delegate = self
-        
-        let filter = GMSAutocompleteFilter()
-        filter.type = .city
-        autocompleteController.autocompleteFilter = filter
-        
-        present(autocompleteController, animated: true, completion: nil)
-    }
-    
     
     
     @IBAction func matchButtonTapped(_ sender: Any) {
@@ -245,8 +230,6 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
             !(levelValue.isEmpty),
             let country = countryTextField.text,
             !country.isEmpty,
-            let city = cityTextField.text,
-            !city.isEmpty,
             let phoneNumber = phoneNumberTextField.text,
             !phoneNumber.isEmpty,
             let info = infoTextView.text,
@@ -279,7 +262,7 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         //            }
         //        }
         //
-        UserService.create(firUser, displayName: displayName, age: age, gender:gender, level:level, country:country, city:city, phoneNumber:phoneNumber,info:info) { (retrievedUser) in
+        UserService.create(firUser, displayName: displayName, age: age, gender:gender, level:level, country:country, phoneNumber:phoneNumber,info:info) { (retrievedUser) in
             guard let user = retrievedUser
                 else {
                     // handle error

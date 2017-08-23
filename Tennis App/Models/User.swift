@@ -20,20 +20,18 @@ class User: NSObject {
     let gender: String?
     let level: String?
     let country: String?
-    let city: String?
     let phoneNumber: String?
     let info: String?
     
     // MARK: - Init
     
-    init(uid: String, displayName:String?, age:String?, gender: String?, level: String?, country: String?, city: String?, phoneNumber: String?, info: String?) {
+    init(uid: String, displayName:String?, age:String?, gender: String?, level: String?, country: String?, phoneNumber: String?, info: String?) {
         self.uid = uid
         self.displayName = displayName
         self.age = age
         self.gender = gender
         self.level = level
         self.country = country
-        self.city = city
         self.phoneNumber = phoneNumber
         self.info = info
         
@@ -47,7 +45,6 @@ class User: NSObject {
             let gender = dict["gender"] as? String,
             let level = dict["level"] as? String,
             let country = dict["country"] as? String,
-            let city = dict["city"] as? String,
             let phoneNumber = dict["phoneNumber"] as? String,
             let info = dict["info"] as? String
 
@@ -60,7 +57,6 @@ class User: NSObject {
         self.gender = gender
         self.level = level
         self.country = country
-        self.city = city
         self.phoneNumber = phoneNumber
         self.info = info
         
@@ -74,7 +70,6 @@ class User: NSObject {
         let gender = aDecoder.decodeObject(forKey:Constants.UserDefaults.gender) as? String,
         let level = aDecoder.decodeObject(forKey:Constants.UserDefaults.level) as? String,
             let country = aDecoder.decodeObject(forKey:Constants.UserDefaults.country) as? String,
-            let city = aDecoder.decodeObject(forKey:Constants.UserDefaults.city) as? String,
             let phoneNumber = aDecoder.decodeObject(forKey:Constants.UserDefaults.phoneNumber) as? String,
             let info = aDecoder.decodeObject(forKey:Constants.UserDefaults.info) as? String
 
@@ -86,7 +81,6 @@ class User: NSObject {
         self.gender = gender
         self.level = level
         self.country = country
-        self.city = city
         self.phoneNumber = phoneNumber
         self.info = info
         
@@ -138,7 +132,6 @@ extension User: NSCoding {
         aCoder.encode(gender, forKey:Constants.UserDefaults.gender)
         aCoder.encode(level, forKey:Constants.UserDefaults.level)
         aCoder.encode(country, forKey: Constants.UserDefaults.country)
-        aCoder.encode(city, forKey: Constants.UserDefaults.city)
         aCoder.encode(phoneNumber, forKey:Constants.UserDefaults.phoneNumber)
         aCoder.encode(info, forKey:Constants.UserDefaults.info)
         
