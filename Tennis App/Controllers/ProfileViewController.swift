@@ -204,7 +204,7 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         autocompleteController.delegate = self
         
         let filter = GMSAutocompleteFilter()
-        filter.type = .geocode
+        filter.type = .city
         autocompleteController.autocompleteFilter = filter
         
         present(autocompleteController, animated: true, completion: nil)
