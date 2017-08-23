@@ -287,6 +287,9 @@
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="string" keyPath="layer.cornerRadius" value="10"/>
                                                 </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="cityTextFieldTapped:" destination="mBi-H3-oD4" eventType="touchDown" id="IGo-zz-zWv"/>
+                                                </connections>
                                             </textField>
                                         </subviews>
                                         <constraints>

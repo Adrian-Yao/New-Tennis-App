@@ -207,11 +207,25 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
         autocompleteController.delegate = self
         
         let filter = GMSAutocompleteFilter()
-        filter.type = .region
+        filter.type = .geocode
         autocompleteController.autocompleteFilter = filter
         
         present(autocompleteController, animated: true, completion: nil)
     }
+    
+    @IBAction func cityTextFieldTapped(_ sender: Any) {
+        
+        let autocompleteController = GMSAutocompleteViewController()
+        autocompleteController.delegate = self
+        
+        let filter = GMSAutocompleteFilter()
+        filter.type = .city
+        autocompleteController.autocompleteFilter = filter
+        
+        present(autocompleteController, animated: true, completion: nil)
+    }
+    
+    
     
     @IBAction func matchButtonTapped(_ sender: Any) {
         
