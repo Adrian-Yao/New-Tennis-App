@@ -39,16 +39,23 @@
                                             <action selector="loginButtonTapped:" destination="4Dl-6H-mkC" eventType="touchUpInside" id="EdW-ZN-kV5"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iTunesArtwork.png" translatesAutoresizingMaskIntoConstraints="NO" id="rvE-Au-byv">
-                                        <rect key="frame" x="67" y="156" width="240" height="240"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iTunesArtwork.png" translatesAutoresizingMaskIntoConstraints="NO" id="rvE-Au-byv">
+                                        <rect key="frame" x="52" y="133" width="270" height="270"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="270" id="Ank-Vv-kUg"/>
+                                            <constraint firstAttribute="width" constant="270" id="TDS-f4-P0n"/>
+                                        </constraints>
                                     </imageView>
                                 </subviews>
                                 <color key="backgroundColor" red="0.30588235294117649" green="0.34901960784313724" blue="0.5490196078431373" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="5jw-Xe-DSV" secondAttribute="trailing" id="89i-CQ-xMq"/>
                                     <constraint firstItem="5jw-Xe-DSV" firstAttribute="leading" secondItem="M1c-MT-EQT" secondAttribute="leading" id="AG3-8c-KG4"/>
+                                    <constraint firstItem="rvE-Au-byv" firstAttribute="leading" secondItem="M1c-MT-EQT" secondAttribute="leading" constant="52" id="L71-on-oI7"/>
                                     <constraint firstAttribute="bottom" secondItem="5jw-Xe-DSV" secondAttribute="bottom" id="Q45-ko-zTP"/>
+                                    <constraint firstAttribute="trailing" secondItem="rvE-Au-byv" secondAttribute="trailing" constant="53" id="XyN-j8-Jik"/>
+                                    <constraint firstItem="rvE-Au-byv" firstAttribute="top" secondItem="M1c-MT-EQT" secondAttribute="top" constant="133" id="teU-r9-3DO"/>
+                                    <constraint firstItem="5jw-Xe-DSV" firstAttribute="top" secondItem="rvE-Au-byv" secondAttribute="bottom" constant="171" id="yWD-xk-5XB"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -421,7 +428,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="iTunesArtwork.png" width="512" height="512"/>
+        <image name="iTunesArtwork.png" width="180" height="180"/>
         <image name="scroll.png" width="400" height="400"/>
     </resources>
 </document>
