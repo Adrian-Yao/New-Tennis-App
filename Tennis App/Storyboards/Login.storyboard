@@ -195,9 +195,6 @@
                                                     <segment title="Male"/>
                                                     <segment title="Female"/>
                                                 </segments>
-                                                <connections>
-                                                    <action selector="genderSegmentedControlTapped:" destination="mBi-H3-oD4" eventType="valueChanged" id="7g2-1B-uIX"/>
-                                                </connections>
                                             </segmentedControl>
                                         </subviews>
                                     </stackView>
@@ -418,7 +415,7 @@
                     <connections>
                         <outlet property="agePicker" destination="6YB-Pm-Ngf" id="kWZ-3W-2G9"/>
                         <outlet property="countryTextField" destination="47w-PD-9is" id="r3e-tv-Byf"/>
-                        <outlet property="genderSegmentControl" destination="0NY-Q0-62b" id="qa0-g3-8Je"/>
+                        <outlet property="genderSegmentControl" destination="0NY-Q0-62b" id="8Ky-Wa-Hc8"/>
                         <outlet property="infoTextView" destination="T2k-lI-0nD" id="XmG-cJ-MTa"/>
                         <outlet property="levelPicker" destination="1b4-2w-7cs" id="pZB-QW-Vrp"/>
                         <outlet property="matchButton" destination="eJd-mO-0nG" id="Rfv-hI-Fwo"/>
