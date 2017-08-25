@@ -147,7 +147,7 @@
 		5E97D6481F322BB5004018F3 = {
 			isa = PBXGroup;
 			children = (
-				5E97D6531F322BB5004018F3 /* Tennis App */,
+				5E97D6531F322BB5004018F3 /* Tennis Connect */,
 				5E97D6521F322BB5004018F3 /* Products */,
 				D6D30858FC0E985713BF0179 /* Pods */,
 				D8080CEB460A92595FD76367 /* Frameworks */,
@@ -162,7 +162,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E97D6531F322BB5004018F3 /* Tennis App */ = {
+		5E97D6531F322BB5004018F3 /* Tennis Connect */ = {
 			isa = PBXGroup;
 			children = (
 				5E97D6541F322BB5004018F3 /* AppDelegate.swift */,
@@ -176,6 +176,7 @@
 				5E84C3B01F324B80005E973D /* Supporting Files */,
 				5E97D65B1F322BB5004018F3 /* Assets.xcassets */,
 			);
+			name = "Tennis Connect";
 			path = "Tennis App";
 			sourceTree = "<group>";
 		};
@@ -236,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E97D64C1F322BB5004018F3 /* Build configuration list for PBXProject "Tennia App" */;
+			buildConfigurationList = 5E97D64C1F322BB5004018F3 /* Build configuration list for PBXProject "Tennis Connect" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -443,7 +444,7 @@
 				DEVELOPMENT_TEAM = M5747P99YK;
 				INFOPLIST_FILE = "$(SRCROOT)/Tennis App/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Adrian-Yao.Tennis-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "Adrian-Yao.Tennis-Connect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -457,7 +458,7 @@
 				DEVELOPMENT_TEAM = M5747P99YK;
 				INFOPLIST_FILE = "$(SRCROOT)/Tennis App/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Adrian-Yao.Tennis-App";
+				PRODUCT_BUNDLE_IDENTIFIER = "Adrian-Yao.Tennis-Connect";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -466,7 +467,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E97D64C1F322BB5004018F3 /* Build configuration list for PBXProject "Tennia App" */ = {
+		5E97D64C1F322BB5004018F3 /* Build configuration list for PBXProject "Tennis Connect" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E97D6611F322BB5004018F3 /* Debug */,

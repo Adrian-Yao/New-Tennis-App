@@ -17,7 +17,7 @@
                BlueprintIdentifier = "5E97D6501F322BB5004018F3"
                BuildableName = "Tennis App.app"
                BlueprintName = "Tennis App"
-               ReferencedContainer = "container:Tennia App.xcodeproj">
+               ReferencedContainer = "container:Tennis Connect.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "5E97D6501F322BB5004018F3"
             BuildableName = "Tennis App.app"
             BlueprintName = "Tennis App"
-            ReferencedContainer = "container:Tennia App.xcodeproj">
+            ReferencedContainer = "container:Tennis Connect.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "5E97D6501F322BB5004018F3"
             BuildableName = "Tennis App.app"
             BlueprintName = "Tennis App"
-            ReferencedContainer = "container:Tennia App.xcodeproj">
+            ReferencedContainer = "container:Tennis Connect.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "5E97D6501F322BB5004018F3"
             BuildableName = "Tennis App.app"
             BlueprintName = "Tennis App"
-            ReferencedContainer = "container:Tennia App.xcodeproj">
+            ReferencedContainer = "container:Tennis Connect.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
