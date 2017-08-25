@@ -32,7 +32,7 @@ class ProfileViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         if pickerView.tag == 0 {
-            return 77
+            return 59
         } else if pickerView.tag == 1 {
             return 13
         } else {

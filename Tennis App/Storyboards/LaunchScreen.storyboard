@@ -22,11 +22,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOADING" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTF-Uo-NWH">
-                                <rect key="frame" x="46" y="279" width="282" height="109"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOADING..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTF-Uo-NWH">
+                                <rect key="frame" x="41" y="301" width="293" height="65"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="282" id="M2A-4k-bZz"/>
-                                    <constraint firstAttribute="height" constant="109" id="wDe-KR-EF4"/>
+                                    <constraint firstAttribute="height" constant="65" id="izg-76-s0d"/>
+                                    <constraint firstAttribute="width" constant="293" id="qDg-ge-0pQ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="50"/>
                                 <color key="textColor" red="1" green="0.5490196078431373" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
@@ -35,10 +35,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.30588235294117649" green="0.34901960784313724" blue="0.5490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="BTF-Uo-NWH" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="30" id="1Oa-7U-Ls3"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="BTF-Uo-NWH" secondAttribute="trailing" constant="31" id="bpe-Bk-dbm"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="BTF-Uo-NWH" secondAttribute="bottom" constant="279" id="lTh-Sm-atR"/>
-                            <constraint firstItem="BTF-Uo-NWH" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="259" id="pIT-QV-7hy"/>
+                            <constraint firstItem="BTF-Uo-NWH" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="25" id="MOR-xF-eNP"/>
+                            <constraint firstItem="BTF-Uo-NWH" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="281" id="NPz-Gn-p0F"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="BTF-Uo-NWH" secondAttribute="trailing" constant="25" id="ZxK-DS-Z7R"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="BTF-Uo-NWH" secondAttribute="bottom" constant="301" id="orm-vQ-Ief"/>
                         </constraints>
                     </view>
                 </viewController>
