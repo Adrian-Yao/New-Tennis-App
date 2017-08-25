@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:Tennis App.xcodeproj">
+      location = "group:/Users/adyao20/Desktop/Code/Make School Academy/IOS Apps/Tennis-App-8f866505edd4f522cdd860dbeac9dff8cd5b5a9c/Tennia App.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

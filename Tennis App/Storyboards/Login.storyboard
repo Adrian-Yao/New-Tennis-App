@@ -428,7 +428,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="iTunesArtwork.png" width="180" height="180"/>
+        <image name="iTunesArtwork.png" width="1024" height="1024"/>
         <image name="scroll.png" width="400" height="400"/>
     </resources>
 </document>
