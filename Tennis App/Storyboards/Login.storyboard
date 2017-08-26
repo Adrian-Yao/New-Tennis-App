@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="0De-uB-fev">
             <objects>
-                <viewController storyboardIdentifier="LoginViewController" id="4Dl-6H-mkC" customClass="LoginViewController" customModule="Tennis_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="4Dl-6H-mkC" customClass="LoginViewController" customModule="Tennis_Twins" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="mau-Al-wM1"/>
                         <viewControllerLayoutGuide type="bottom" id="AKW-Zr-y3h"/>
@@ -96,7 +96,7 @@
         <!--Profile View Controller-->
         <scene sceneID="A1v-hl-SPd">
             <objects>
-                <viewController storyboardIdentifier="ProfileViewController" id="mBi-H3-oD4" customClass="ProfileViewController" customModule="Tennis_App" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ProfileViewController" id="mBi-H3-oD4" customClass="ProfileViewController" customModule="Tennis_Twins" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="45z-zn-Jb9"/>
                         <viewControllerLayoutGuide type="bottom" id="Zfe-cc-mlD"/>
@@ -381,8 +381,8 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="help Tennis Connect find buddies!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zm-9h-4Lv">
-                                        <rect key="frame" x="27" y="24" width="230.5" height="37"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="help find you twin for tennis!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Zm-9h-4Lv">
+                                        <rect key="frame" x="45" y="24" width="194.5" height="37"/>
                                         <fontDescription key="fontDescription" name="Avenir-Medium" family="Avenir" pointSize="15"/>
                                         <color key="textColor" red="0.30588235294117649" green="0.34901960784313724" blue="0.5490196078431373" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>

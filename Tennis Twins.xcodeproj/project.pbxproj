@@ -48,7 +48,7 @@
 		5E84C3BE1F337F05005E973D /* UserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserService.swift; path = Services/UserService.swift; sourceTree = "<group>"; };
 		5E84C3C01F339B89005E973D /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Supporting/Constants.swift; sourceTree = "<group>"; };
 		5E84C3C31F339C60005E973D /* Storyboard + Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Storyboard + Utility.swift"; path = "Extensions/Storyboard + Utility.swift"; sourceTree = "<group>"; };
-		5E97D6511F322BB5004018F3 /* Tennis Connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tennis Connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E97D6511F322BB5004018F3 /* Tennis Twins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tennis Twins.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E97D6541F322BB5004018F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E97D65B1F322BB5004018F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		778135CB10B109E6FC1D04DA /* Pods_Tennis_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tennis_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,7 +147,7 @@
 		5E97D6481F322BB5004018F3 = {
 			isa = PBXGroup;
 			children = (
-				5E97D6531F322BB5004018F3 /* Tennis Connect */,
+				5E97D6531F322BB5004018F3 /* Tennis Twins */,
 				5E97D6521F322BB5004018F3 /* Products */,
 				D6D30858FC0E985713BF0179 /* Pods */,
 				D8080CEB460A92595FD76367 /* Frameworks */,
@@ -157,12 +157,12 @@
 		5E97D6521F322BB5004018F3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5E97D6511F322BB5004018F3 /* Tennis Connect.app */,
+				5E97D6511F322BB5004018F3 /* Tennis Twins.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5E97D6531F322BB5004018F3 /* Tennis Connect */ = {
+		5E97D6531F322BB5004018F3 /* Tennis Twins */ = {
 			isa = PBXGroup;
 			children = (
 				5E97D6541F322BB5004018F3 /* AppDelegate.swift */,
@@ -176,7 +176,7 @@
 				5E84C3B01F324B80005E973D /* Supporting Files */,
 				5E97D65B1F322BB5004018F3 /* Assets.xcassets */,
 			);
-			name = "Tennis Connect";
+			name = "Tennis Twins";
 			path = "Tennis App";
 			sourceTree = "<group>";
 		};
@@ -200,9 +200,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5E97D6501F322BB5004018F3 /* Tennis Connect */ = {
+		5E97D6501F322BB5004018F3 /* Tennis Twins */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E97D6631F322BB5004018F3 /* Build configuration list for PBXNativeTarget "Tennis Connect" */;
+			buildConfigurationList = 5E97D6631F322BB5004018F3 /* Build configuration list for PBXNativeTarget "Tennis Twins" */;
 			buildPhases = (
 				E8B094868787253D629433E9 /* [CP] Check Pods Manifest.lock */,
 				5E97D64D1F322BB5004018F3 /* Sources */,
@@ -215,9 +215,9 @@
 			);
 			dependencies = (
 			);
-			name = "Tennis Connect";
+			name = "Tennis Twins";
 			productName = "Tennis App";
-			productReference = 5E97D6511F322BB5004018F3 /* Tennis Connect.app */;
+			productReference = 5E97D6511F322BB5004018F3 /* Tennis Twins.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -237,7 +237,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5E97D64C1F322BB5004018F3 /* Build configuration list for PBXProject "Tennis Connect" */;
+			buildConfigurationList = 5E97D64C1F322BB5004018F3 /* Build configuration list for PBXProject "Tennis Twins" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -250,7 +250,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5E97D6501F322BB5004018F3 /* Tennis Connect */,
+				5E97D6501F322BB5004018F3 /* Tennis Twins */,
 			);
 		};
 /* End PBXProject section */
@@ -444,7 +444,7 @@
 				DEVELOPMENT_TEAM = M5747P99YK;
 				INFOPLIST_FILE = "$(SRCROOT)/Tennis App/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Adrian-Yao.Tennis-Connect";
+				PRODUCT_BUNDLE_IDENTIFIER = "Adrian-Yao.Tennis-Twins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -458,7 +458,7 @@
 				DEVELOPMENT_TEAM = M5747P99YK;
 				INFOPLIST_FILE = "$(SRCROOT)/Tennis App/Supporting/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "Adrian-Yao.Tennis-Connect";
+				PRODUCT_BUNDLE_IDENTIFIER = "Adrian-Yao.Tennis-Twins";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -467,7 +467,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5E97D64C1F322BB5004018F3 /* Build configuration list for PBXProject "Tennis Connect" */ = {
+		5E97D64C1F322BB5004018F3 /* Build configuration list for PBXProject "Tennis Twins" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E97D6611F322BB5004018F3 /* Debug */,
@@ -476,7 +476,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E97D6631F322BB5004018F3 /* Build configuration list for PBXNativeTarget "Tennis Connect" */ = {
+		5E97D6631F322BB5004018F3 /* Build configuration list for PBXNativeTarget "Tennis Twins" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E97D6641F322BB5004018F3 /* Debug */,
