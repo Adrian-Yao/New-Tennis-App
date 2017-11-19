@@ -403,6 +403,7 @@
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="eJd-mO-0nG" firstAttribute="top" secondItem="XXX-oZ-OmX" secondAttribute="bottom" constant="30" id="0ko-Tf-WgS"/>
+                                    <constraint firstItem="XXX-oZ-OmX" firstAttribute="top" secondItem="dGT-0y-INp" secondAttribute="bottom" constant="30" id="N1l-J5-I24"/>
                                 </constraints>
                             </stackView>
                         </subviews>
