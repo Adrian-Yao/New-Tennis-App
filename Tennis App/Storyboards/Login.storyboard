@@ -402,14 +402,19 @@
                                     </button>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="eJd-mO-0nG" firstAttribute="top" secondItem="XXX-oZ-OmX" secondAttribute="bottom" constant="30" id="0ko-Tf-WgS"/>
-                                    <constraint firstItem="XXX-oZ-OmX" firstAttribute="top" secondItem="dGT-0y-INp" secondAttribute="bottom" constant="30" id="N1l-J5-I24"/>
+                                    <constraint firstItem="eJd-mO-0nG" firstAttribute="top" secondItem="XXX-oZ-OmX" secondAttribute="bottom" constant="30" id="56f-9c-Tqa"/>
+                                    <constraint firstAttribute="width" constant="290" id="63T-8f-gg8"/>
+                                    <constraint firstAttribute="height" constant="517" id="hL7-iN-HmO"/>
+                                    <constraint firstItem="XXX-oZ-OmX" firstAttribute="top" secondItem="dGT-0y-INp" secondAttribute="bottom" constant="30" id="jNZ-UJ-Vgo"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.97647058823529409" green="0.7803921568627451" blue="0.51764705882352935" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="Kl3-V2-Ghe" firstAttribute="centerY" secondItem="Z37-mz-Qt5" secondAttribute="centerY" id="8co-Ou-9ZS"/>
+                            <constraint firstItem="dGT-0y-INp" firstAttribute="top" secondItem="45z-zn-Jb9" secondAttribute="bottom" constant="55" id="Fvu-Oi-oFy"/>
+                            <constraint firstItem="Kl3-V2-Ghe" firstAttribute="top" secondItem="45z-zn-Jb9" secondAttribute="bottom" constant="55" id="TF8-61-aQM"/>
+                            <constraint firstItem="Zfe-cc-mlD" firstAttribute="top" secondItem="Kl3-V2-Ghe" secondAttribute="bottom" constant="75" id="hui-4j-Vlk"/>
                             <constraint firstItem="Kl3-V2-Ghe" firstAttribute="centerX" secondItem="Z37-mz-Qt5" secondAttribute="centerX" id="ouQ-gp-C3B"/>
                         </constraints>
                     </view>
