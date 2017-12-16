@@ -365,7 +365,9 @@
                                                 <constraints>
                                                     <constraint firstAttribute="trailing" secondItem="T2k-lI-0nD" secondAttribute="trailing" id="5lh-lK-VyO"/>
                                                     <constraint firstAttribute="bottom" secondItem="T2k-lI-0nD" secondAttribute="bottom" id="IlO-3W-qsu"/>
+                                                    <constraint firstAttribute="height" constant="50" id="nN5-VZ-cNg"/>
                                                     <constraint firstItem="T2k-lI-0nD" firstAttribute="top" secondItem="G1H-6X-YAr" secondAttribute="top" id="np4-gC-o8K"/>
+                                                    <constraint firstAttribute="width" constant="286" id="ojQ-4B-rEz"/>
                                                 </constraints>
                                             </stackView>
                                         </subviews>
